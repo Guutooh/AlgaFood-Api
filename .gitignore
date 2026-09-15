@@ -1,0 +1,129 @@
+### Build / Dependências ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+### Maven ###
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+### Logs / Temporários ###
+logs/
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+hs_err_pid*
+replay_pid*
+/test-output/
+jacoco/
+*.exec
+
+### Configurações sensíveis (só locais, não os profiles do projeto) ###
+application-local.yml
+application-local.yaml
+application-local.properties
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.jks
+*.crt
+*.der
+rebel.xml
+secrets/
+credentials.json
+
+### Banco de dados embutido / cache ###
+*.db
+*.sqlite
+*.h2.db
+*.mv.db
+h2-console/
+.lombok-cache/
+
+### Docker (só overrides locais, não Dockerfile/compose principal) ###
+docker-compose.override.yml
+docker-compose.override.yaml
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+### Eclipse / STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+bin/
+tmp/
+.metadata
+.loadpath
+.recommenders/
+
+### VS Code ###
+.vscode/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### macOS ###
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+### Linux ###
+*~
+.fuse_hidden*
+.Trash-*
+.nfs*
+
+### Git ###
+*.orig
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+
+### Node / Angular (se o front entrar no mesmo repo) ###
+node_modules/
+dist/
+.angular/
+npm-debug.log
+*.tsbuildinfo
